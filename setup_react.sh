@@ -18,7 +18,7 @@ git clone "$REPO_URL" "$CLONE_DIR"
 echo "Installing dependencies..."
 cd "$CLONE_DIR"
 npm install
-
+echo "inserting new line"
 # Build the application
 echo "Building the application..."
 npm run build
